@@ -99,6 +99,7 @@ list-style-type: none;
 &:hover{
     font-weight: 600;
     color: #000;
+    transition: .5s all ease-in-out;
     border-bottom: 3px solid #8bd9be;
   }
 
