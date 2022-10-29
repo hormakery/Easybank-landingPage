@@ -75,9 +75,11 @@ const Nav = () => {
       
 
         <Menu>
+          <MenuList>
         <Link to='/signup' className='nav-links'>
           <Button/>
         </Link>
+        </MenuList>
         </Menu> 
         
        

@@ -56,7 +56,7 @@ const [isMobile, setIsMobile]=useState(false)
 
             <ImageContainer>
                 <div className='image-container'>
-                <Image  src='../images/image-mockups.png' />
+                <Image  src='../images/image-mockups.png' alt=''/>
                 </div>
             </ImageContainer>
         </Top>
@@ -88,7 +88,7 @@ const [isMobile, setIsMobile]=useState(false)
 
         {latest.map((latest)=>(
             <Section key={latest.id}>
-                <SectionImage src={latest.image}alt="" />
+                <SectionImage src={latest.image} alt="" />
                 <Details>
                 <Author>{latest.author}</Author>
                 <Titles>{latest.title}</Titles>
