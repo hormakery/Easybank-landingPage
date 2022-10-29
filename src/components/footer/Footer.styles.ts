@@ -45,7 +45,7 @@ display: flex;
 cursor: pointer;
 margin-top: 3rem;
 
-span{
+.icons{
     margin-right: 1rem;
     .icons path{
         &:hover{
@@ -73,16 +73,9 @@ a{
         color: #376370; 
     }
 
-    span{
-        @media screen and (max-width: 600px){
-            margin-bottom: 1rem;
-        }  
-    } 
 
-    .contact{
-        @media screen and (max-width: 600px) {
-            margin-bottom: 1rem;
-        }
+    @media screen and (max-width: 600px){
+        margin-bottom: 1rem;
     }
 
 }
@@ -108,6 +101,8 @@ justify-content: space-between;
 @media screen and (max-width: 600px){
     flex-direction: column;
     font-size: .8rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .button{

@@ -23,22 +23,23 @@ const Footer = () => {
                           </div>
                           </Link>
                 <Icon>
-                    <span className='icons'><img src='../images/icon-facebook.svg' alt='facebook' /></span>
-                    <span><img src='../images/icon-youtube.svg' alt='youtube'/></span>
-                    <span><img src='../images/icon-twitter.svg' alt='twitter'/></span>
-                    <span><img src='../images/icon-pinterest.svg' alt='pinterest'/></span>
-                    <span><img src='../images/icon-instagram.svg' alt='instagram'/></span>
+                    <Link className='icons' to='/facebook'><img src='../images/icon-facebook.svg' alt='facebook' /></Link>
+                    <Link className='icons' to='/youtube'><img src='../images/icon-youtube.svg' alt='youtube'/></Link>
+                    <Link className='icons' to='/twitter'><img src='../images/icon-twitter.svg' alt='twitter'/></Link>
+                    <Link className='icons' to='/pinterest'><img src='../images/icon-pinterest.svg' alt='pinterest'/></Link>
+                    <Link className='icons' to='/instagram'><img src='../images/icon-instagram.svg' alt='instagram'/></Link>
                 </Icon>
             </Icons>
             <Contact>
-                <span className='contact'><Link to="/about" className='contacts'>About Us</Link></span>
-                <span className='contact'><Link to="/contact" className='contacts'>Contact</Link></span>
-                <span className='contact'><Link to="/blog" className='contacts'>Blog</Link></span>
+                <Link to="/about" className='contacts'>About Us</Link>
+                <Link to="/contact" className='contacts'>Contact</Link>
+                <Link to="/blog" className='contacts'>Blog</Link>
             </Contact>
+
             <Contact>
-            <span className='contact'><Link to="/career" >Career</Link></span>
-                <span className='contact'><Link to="/support" >Support</Link></span>
-                <span className='contact'><Link to="/privacy-policy" >Privacy Policy </Link></span>
+                <Link to="/career" className='contacts'>Career</Link>
+               <Link to="/support" className='contacts'>Support</Link>
+                <Link to="/privacy-policy" className='contacts'>Privacy Policy </Link>
             </Contact>
         </Wrapper>
 

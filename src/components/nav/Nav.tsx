@@ -76,9 +76,7 @@ const Nav = () => {
 
         <Menu>
         <Link to='/signup' className='nav-links'>
-          <MenuList>
           <Button/>
-        </MenuList>
         </Link>
         </Menu> 
         
