@@ -42,10 +42,10 @@ const Footer = () => {
         </Wrapper>
 
         <FooterLeft>
-            <div className='button'>  
+            {/* <div className='button'>  
             
+            </div> */}
                 <Button/>
-            </div>
 
             <span className='copyright'>@ Easybank. All Right Reserved</span>
         </FooterLeft>

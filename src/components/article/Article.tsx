@@ -47,9 +47,9 @@ const [isMobile, setIsMobile]=useState(false)
                 will be a one-stop-shop for spending, saving,budgeting, investing and much more.
                 </Excerpt>
 
-              <div>
+              {/* <div>
+              </div> */}
                 <Button/>
-              </div>
             </Context>
 
             <ImageContainer>

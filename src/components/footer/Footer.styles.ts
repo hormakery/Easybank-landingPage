@@ -64,9 +64,6 @@ flex-direction: column;
 margin-left: 4rem;
 justify-content: space-between;
 
-
-
-
 a{
     color: #bbbac6;
     font-weight: 500;
@@ -102,9 +99,11 @@ justify-content: space-between;
 .copyright{
     color: #bbbac6;
     font-size: .8rem;
-
-    
-}
+   
+    @media screen and (max-width: 600px){
+        margin-top: 1rem;
+    }
+} 
 
 @media screen and (max-width: 600px){
     flex-direction: column;

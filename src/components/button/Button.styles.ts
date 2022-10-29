@@ -5,6 +5,7 @@ color: #fff;
 border: none;
 cursor: pointer;
 font-weight: 600;
+text-align:center;
 word-wrap: nowrap;
 padding: 0.7rem 1rem;
 border-radius: 1rem;
