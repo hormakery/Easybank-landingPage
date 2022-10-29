@@ -75,11 +75,11 @@ const Nav = () => {
       
 
         <Menu>
-        <Link to='/signup' className='nav-links'>
           <MenuList>
+        <Link to='/signup' className='nav-links'>
           <Button/>
-        </MenuList>
         </Link>
+        </MenuList>
         </Menu> 
         
        
