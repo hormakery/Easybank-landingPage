@@ -36,7 +36,7 @@ export const Context=styled.div`
 flex: 0.7;
 display: flex;
 margin-top: 4rem;
-padding: 3rem  4rem;
+padding: 3rem  3rem;
 flex-direction: column;
 
 @media screen and (max-width: 600px){
@@ -46,7 +46,7 @@ flex-direction: column;
 }
 
 @media screen and (max-width: 820px){
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
     
 }
 `
@@ -136,7 +136,7 @@ background-position:  center center;
 
 export const Center= styled.div`
 display: flex;
-padding: 3rem 5rem;
+padding: 3rem 3rem;
 flex-direction: column;
 background-color: #f3f5f7;
 
@@ -228,7 +228,7 @@ margin-top: 1.4rem;
 
 export const Bottom=styled.div`
 display: flex;
-padding: 3rem 5rem;
+padding: 3rem 3rem;
 flex-direction: column;
 background-color: #fafafa;
 

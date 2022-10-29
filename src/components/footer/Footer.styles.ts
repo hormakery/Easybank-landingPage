@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterWrapper=styled.footer`
 display: flex;
-padding: 3rem 5rem;
+padding: 3rem 3rem;
 background-color: #2d314f;
 justify-content: space-between;
 
