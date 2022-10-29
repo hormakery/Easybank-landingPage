@@ -45,8 +45,8 @@ flex-direction: column;
     justify-content: center;
 }
 
-@media screen and (max-width: 820px){
-    padding: 3rem 3rem;
+@media screen and (max-width: 912px){
+    padding: 2rem 2rem;
     
 }
 `
@@ -146,8 +146,8 @@ background-color: #f3f5f7;
     justify-contents: center;
 }
 
-@media screen and (max-width: 820px){
-    padding: 2rem 3rem;
+@media screen and (max-width: 912px){
+    padding: 2rem 2rem;
 
 }
 `
@@ -238,8 +238,8 @@ background-color: #fafafa;
     padding: 2rem 1rem;
 }
 
-@media screen and (max-width: 820px){
-    padding: 2rem 3rem;
+@media screen and (max-width: 912px){
+    padding: 2rem 2rem;
 
 }
 

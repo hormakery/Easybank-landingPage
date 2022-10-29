@@ -13,7 +13,7 @@ justify-content: space-between;
 }
 
 @media screen and (max-width: 912px){
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
 }
 `
 
