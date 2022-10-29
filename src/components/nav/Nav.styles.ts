@@ -41,6 +41,7 @@ top: 50%;
 right: 25px;
 height: 40px;
 width: 40px;
+
   display: none;
   padding: 0.5rem;
   cursor: pointer;
@@ -66,6 +67,7 @@ align-items: center;
   width: 90%;
   left: 20px;
   display: block;
+  z-index: 999999;
   border-radius: .4rem;
   align-items: center;
   position: absolute;
