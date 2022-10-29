@@ -7,8 +7,9 @@ import {
 const Button = () => {
   return (
     <>
-    
+    <Link to='/signup'> 
        <Buttons>Request Invite</Buttons>
+    </Link>
     </>
   )
 }

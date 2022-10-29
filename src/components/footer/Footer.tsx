@@ -43,9 +43,9 @@ const Footer = () => {
 
         <FooterLeft>
             <div className='button'>  
-                <Link to='/signup' className='nav-links'> 
+            
                 <Button/>
-                </Link></div>
+            </div>
 
             <span className='copyright'>@ Easybank. All Right Reserved</span>
         </FooterLeft>

@@ -48,9 +48,7 @@ const [isMobile, setIsMobile]=useState(false)
                 </Excerpt>
 
               <div>
-                <Link to='/signup' className='nav-links'> 
                 <Button/>
-                </Link>
               </div>
             </Context>
 
