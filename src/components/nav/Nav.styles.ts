@@ -121,6 +121,4 @@ list-style-type: none;
     text-align: center;
     transition: all 0.5s ease-out;
   }
-
-  
 `
