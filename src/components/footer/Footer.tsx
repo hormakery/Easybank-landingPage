@@ -71,7 +71,8 @@ const Footer = () => {
         </Wrapper>
 
         <FooterLeft>
-            <div className='button'>  <Link to='/signup' className='nav-links'> 
+            <div className='button'>  
+                <Link to='/signup' className='nav-links'> 
                 <Button/>
                 </Link></div>
 

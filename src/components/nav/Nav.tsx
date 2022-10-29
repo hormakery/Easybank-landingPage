@@ -18,7 +18,7 @@ const Nav = () => {
     
   return (
     <Navigation>
-      <Link className="brand-logo" to='/' ><Image src='../images/logo.svg 'alt=''/></Link>
+      <Link  to='/' className="brand-logo"><Image src='../images/logo.svg 'alt=''/></Link>
 
 
       <BurgerMenu className="hamburger" 
