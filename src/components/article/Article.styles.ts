@@ -141,13 +141,13 @@ flex-direction: column;
 background-color: #f3f5f7;
 
 @media screen and (max-width: 600px){
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     align-items: center;
     justify-contents: center;
 }
 
 @media screen and (max-width: 912px){
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
 
 }
 `
@@ -236,11 +236,11 @@ background-color: #fafafa;
 
 @media screen and (max-width: 600px){
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 @media screen and (max-width: 912px){
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
 
 }
 
