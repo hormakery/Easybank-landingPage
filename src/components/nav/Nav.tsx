@@ -6,8 +6,6 @@ import {
     Menu,
     NavMenu,
     MenuList,
-    // MobileList,
-    // Mobilenav,
     BurgerMenu,
     Navigation,
 } from './Nav.styles'

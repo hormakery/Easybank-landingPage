@@ -87,7 +87,6 @@ transition: .15s ease-in-out ;
     display: none;
    
   }
-
 }
 `
 
@@ -106,6 +105,7 @@ list-style-type: none;
 .nav-links{
     width: 100%;
     display: block;
+    color: #dadada;
     text-decoration: none;
 
     @media screen and (max-width: 768px){
@@ -118,7 +118,6 @@ list-style-type: none;
     @media screen and (max-width: 768px){
     width: 100%;
     color: #dadada;
-    // padding: .5rem 0;
     text-align: center;
     transition: all 0.5s ease-out;
   }
