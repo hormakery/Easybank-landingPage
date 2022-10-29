@@ -333,7 +333,7 @@ margin-top: 1.2rem;
  }
 
  @media screen and (max-width: 820px){
-    font-size: .8rem;
+    font-size: .9rem;
  }
 
 `
