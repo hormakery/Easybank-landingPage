@@ -105,7 +105,7 @@ list-style-type: none;
 .nav-links{
     width: 100%;
     display: block;
-    color: #dadada;
+    color: #b9babe;
     text-decoration: none;
 
     @media screen and (max-width: 768px){
@@ -117,7 +117,7 @@ list-style-type: none;
 
     @media screen and (max-width: 768px){
     width: 100%;
-    color: #dadada;
+    color: #b9babe;
     text-align: center;
     transition: all 0.5s ease-out;
   }
