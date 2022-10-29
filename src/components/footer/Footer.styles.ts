@@ -7,7 +7,7 @@ background-color: #2d314f;
 justify-content: space-between;
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 600px){
     flex-direction: column;
     align-items: center;
 }
@@ -21,7 +21,7 @@ export const Wrapper=styled.div`
 display: flex;
 justify-content: space-between;
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 600px){
     flex-direction: column;
 }
 `
@@ -106,13 +106,13 @@ justify-content: space-between;
     
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 600px){
     flex-direction: column;
     font-size: .8rem;
 }
 
 .button{
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 600px){
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
