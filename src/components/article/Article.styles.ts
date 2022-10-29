@@ -186,6 +186,7 @@ flex-direction: column;
 
 @media screen and (max-width: 912px){
    margin-right: 1rem;
+   margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 1024px){
